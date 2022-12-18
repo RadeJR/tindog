@@ -47,18 +47,6 @@ body {
   width: 20%;
 }
 
-@media (max-width: 991px){
-    .title-img{
-        position: static;
-        transform: rotate(0);
-        width: 50%;
-        margin-top: 100px;
-    }
-    #title{
-        text-align: center;
-    }
-}
-
 /* FEATURES */
 #features {
   text-align: center;
@@ -172,3 +160,18 @@ body {
     color: black;
     margin: 0 10px 2rem;
 }
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 991px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-top: 100px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
