@@ -50,7 +50,7 @@ body {
 /* FEATURES */
 #features {
   text-align: center;
-  padding: 3rem 0;
+  padding: 5% 0;
   background-color: white;
   position: relative;
 }
@@ -172,6 +172,20 @@ body {
     }
     #title{
         text-align: center;
+    }
+    #title h1{
+        font-size: 3rem;
+    }
+    .container-fluid {
+      padding: 3% 5% 10%;
+    }
+
+
+}
+
+@media (max-width: 500px){
+    #pricing{
+        padding: 6rem 3%;
     }
 }
 
